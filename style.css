@@ -98,6 +98,14 @@ body {
     color: #555555;
 }
 
+.specialties {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
 .hero-buttons {
     margin-top: 40px;
     display: flex;
