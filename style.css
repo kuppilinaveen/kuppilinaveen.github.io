@@ -249,6 +249,41 @@ section {
     max-width: 500px;
 }
 
+/* =========================
+   SERVICES
+========================= */
+
+.services {
+    background: #f5f5f5;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid #dddddd;
+}
+
+.service {
+    padding: 35px 30px 40px 0;
+    margin-right: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.service span {
+    font-size: 12px;
+    color: #888888;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin: 12px 0;
+    letter-spacing: -0.5px;
+}
+
+.service p {
+    color: #666666;
+    max-width: 350px;
+}
 
 /* =========================
    ABOUT
@@ -456,6 +491,14 @@ footer {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+
+    .services-grid {
+    grid-template-columns: 1fr;
+}
+
+.service {
+    margin-right: 0;
+}
 
     .contact h2 {
         letter-spacing: -3px;
