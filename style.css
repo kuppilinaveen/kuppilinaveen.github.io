@@ -347,7 +347,20 @@ section {
 .contact-button:hover {
     background: #333333;
 }
+.phone-button {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 17px 30px;
+    border: 1px solid #111111;
+    color: #111111;
+    text-decoration: none;
+    font-weight: 600;
+}
 
+.phone-button:hover {
+    background: #111111;
+    color: #ffffff;
+}
 .social-links {
     margin-top: 40px;
     display: flex;
